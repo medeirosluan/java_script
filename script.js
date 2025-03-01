@@ -3,9 +3,8 @@ const fundo = document.querySelector('body')
 
 function ligarLampada(){
     imagem.src = 'img/ideia.png'
-    fundo.style.backgroundColor = '#f4f4f4'
-    
 }
+
 function desligarLampada(){
     imagem.src = 'img/ideia(1).png'
 
@@ -14,10 +13,10 @@ function desligarLampada(){
 
 setInterval(function desligarLampada() {
     imagem.src = 'img/ideia.png'
-}, 100);
+}, 150);
 
 setInterval(function ligarLampada() {
     imagem.src = 'img/ideia(1).png'
-}, 200);
+}, 500);
 
 
